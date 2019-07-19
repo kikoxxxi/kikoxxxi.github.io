@@ -1,0 +1,32 @@
+<h1 id="mac-iterm2定制配色">Mac iTerm2定制配色</h1>
+
+<p><a href="https://www.jianshu.com/p/68e1c92564dc">常用快捷键参考</a>、<a href="[http://hyuga.top/2019/01/10/alfred-iterm2-colorMatching/](http://hyuga.top/2019/01/10/alfred-iterm2-colorMatching/)">配置参考</a></p>
+
+<h2 id="一环境配置修改">一、环境配置修改</h2>
+
+<pre><code class="language-{bash}">$ cd ~
+$ vi .bash_profile
+$ source .bash_profile
+</code></pre>
+
+<pre><code class="language-{cmd}">export CLICOLOR=1
+
+export LSCOLORS=gxfxcxdxbxegedabagacad
+
+export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;36m\]\w\[\033[00m\]\$ \[\033[01;35m\]'
+
+export TERM=xterm-256color
+</code></pre>
+
+<ul>
+  <li>
+    <h4 id="环境变量term改动clear报错-terminals-database-is-inaccessible">环境变量TERM改动clear报错 ‘terminals database is inaccessible’</h4>
+  </li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>clear
+terminals database is inaccessible
+<span class="nv">$ </span>infocmp xterm-Monokai Remastered
+infocmp: couldn<span class="s1">'t open terminfo file (null).
+</span></code></pre></div></div>
+
