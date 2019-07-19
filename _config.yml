@@ -1,1 +1,98 @@
-theme: jekyll-theme-slate
+# Site settings
+title: kikoxxxi's Blog
+SEOTitle: 杨杨的博客 | kikoxxxi's Blog
+header-img: img/Jobs.jpg
+email: kikoxxxiyy@gmail.com
+description: "前端开发 | kikoxxxi，Front-End Engineer，Literature & Photographic Lover | 这里是 @kikoxxxi 的个人博客。"
+keyword: "vue,kikoxxxi, kikoxxxi, kikoxxxi的博客, kikoxxxi's Blog, 博客, 个人网站, 前端, java, centos , linux ,虚拟机 ,工程师 "
+url: "https://kikoxxxi.github.io"      # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+post-default-img: img/Jobs.jpg
+share-default-img: img/Jobs.png   #分享默认图片
+
+
+
+# SNS settings
+# RSS: true
+# weibo_username:     lightspot
+# zhihu_username:    kikoxxxi/activities
+github_username:   kikoxxxi
+# facebook_username:  null
+# linkedin_username:  null
+
+
+##comment
+##comment
+##disqus :
+##duoshuo
+##youyan
+##gitment
+#  gitment
+#  id:11df5946803a6c6cd323
+#    secret:a9b444dcc5df45de0021dfee3020b2b26c5c6e38
+#
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10      # how many articles per page
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+plugins: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+# Analytics settings
+# Baidu Analytics
+#ba_track_id: 22f155006b59bad2d19de8c02a18008f
+# Google Analytics 谷歌分析
+# ga_track_id: 'UA-131760968-1'            # Format: UA-xxxxxx-xx
+# ga_domain: auto
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "The life I want determines the direction of my efforts"
+sidebar-avatar: /img/Jobs.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        title: "css-tricks",
+        href: "https://css-tricks.com/"
+    },
+   # {
+   #     title: "前端外刊评论",
+   #     href: "http://qianduan.guru/"
+   # },
+   # {
+    #    title: "uptodate  ",
+   #     href: "https://uptodate.frontendrescue.org/"
+   # },
+    
+]
